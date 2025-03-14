@@ -1,0 +1,27 @@
+{
+	"name": "AzureSqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase3",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sinkvar": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().sinkvar",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().sinkvar",
+				"type": "Expression"
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+WITH products AS(
+    SELECT DISTINCT
+       *
+    FROM DEMINIPROJECT.DBO.PRODUCTS
+)
+SELECT * FROM products

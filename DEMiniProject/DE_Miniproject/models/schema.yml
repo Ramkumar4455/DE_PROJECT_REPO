@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: Ronaldo
+    database: DEMINIPROJECT
+    schema: DBO
+    tables:
+
+      - name: COUNTRYREGION
+        description: "This table contains the Country and region of each customers"
+
+      - name: CUSTOMERS
+        description: "This table contains the dimensional details of each customers"
+
+      - name: PRODUCTS
+        description: "This table contains the dimensional details of each products"
+
+      - name: TRANSACTION
+        description: "This table contains the transactional details of each products and customers"
+

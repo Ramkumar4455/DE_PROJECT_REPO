@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: customer_revenue_summary
+    description: customer table
+    columns:
+      - name: customer_id
+        description: Unique identifier for the customer
+        tests:
+          - not_null
+      - name: customername
+        description: name of the customer
+      - name: region
+        description: region of the customer
+      - name: country
+        description: country of the customer
+      - name: total_revenue
+        description: total-revenue for the customer
+      - name: rank
+        description: rank of each customer based on their revenue
+
+  

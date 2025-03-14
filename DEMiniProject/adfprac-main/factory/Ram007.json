@@ -1,0 +1,9 @@
+{
+	"name": "Ram007",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "464fa80f-863f-4845-9c5c-e7a25f7e5581",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

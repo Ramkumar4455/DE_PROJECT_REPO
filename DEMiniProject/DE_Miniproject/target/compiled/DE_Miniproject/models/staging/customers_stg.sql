@@ -1,0 +1,6 @@
+WITH customers AS(
+    SELECT DISTINCT
+       *
+    FROM DEMINIPROJECT.DBO.CUSTOMERS
+)
+SELECT * FROM customers

@@ -1,0 +1,28 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "simpleforeachblobstorage",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sc": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().sc",
+				"type": "Expression"
+			},
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "retail_sales_dataset.xlsx",
+				"container": "containerpracwed"
+			}
+		},
+		"schema": []
+	}
+}
